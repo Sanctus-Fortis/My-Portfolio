@@ -1,0 +1,43 @@
+title: The Name of the Wind
+author: Patrick Rothfuss
+genre: fantasy
+pages: 662
+hours: 7.8
+
+title: Theft of Swords
+author: Michael J. Sullivan
+genre: fantasy
+pages: 704
+hours: 5.7
+
+title: Rise of Empire
+author: Michael J. Sullivan
+genre: fantasy
+pages: 816
+hours: 6.1
+
+title: Heir of Novron
+author: Michael J. Sullivan
+pages: 960
+
+title: Miss Peregrine's Home for Peculiar Children
+author: Ransom Riggs
+genre: fantasy
+
+title: Echo
+author: Pam Munoz Ryan
+genre: historical fiction
+pages: 592
+hours: 4.6
+
+title: A Series of Unfortunate Events: The Bad Beginning
+author: Lemony Snicket
+genre: fiction
+pages: 162
+hours: 2.1
+
+title: The Name of this Book is Secret
+author: Pseudonymous Bosch
+genre: fiction
+pages: 360
+hours: 4.2

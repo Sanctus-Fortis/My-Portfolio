@@ -1,0 +1,26 @@
+title: Alcatraz and the Evil Librarians
+author: Brandon Sanderson
+genre: fantasy
+pages: 320
+hours: 1.6
+
+title: The False Prince
+author: Jennifer A. Nielsen
+genre: fantasy
+pages: 352
+
+title: Keturah and Lord Death
+author: Martine Leavitt
+genre: fiction
+
+title: Fablehaven
+author: Brandon Mull
+genre: fantasy
+
+title: The Maze Runner
+author: James Dashner
+genre: dystopian
+
+title: Leven Thumps and the Gateway to Foo
+author: Obert Skye
+genre: fantasy

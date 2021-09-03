@@ -1,0 +1,5 @@
+.idea/
+CMakeLists.txt
+cmake-build-debug/
+lab0.exe
+lab0

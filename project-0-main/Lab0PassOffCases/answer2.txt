@@ -1,0 +1,1 @@
+Genre can not be set twice for the same book.

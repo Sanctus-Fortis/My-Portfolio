@@ -1,0 +1,17 @@
+title: A Wrinkle in Time
+author: Madeleine L'Engle
+genre: science fiction
+pages: 256
+hours: 2.3
+
+title: Fablehaven
+author: Brandon Mull
+genre: fantasy
+pages: 359
+hours: 3.2
+
+title: To Kill a Mockingbird
+author: Harper Lee
+genre: historical fiction
+pages: 281
+hours: 2.7

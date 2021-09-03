@@ -1,0 +1,70 @@
+Books, Organized By Author
+	Brandon Mull
+		Fablehaven by Brandon Mull
+		---
+		Number of books: 1
+		Number of pages: 0
+		Number of hours: 0
+
+	Brandon Sanderson
+		Alcatraz and the Evil Librarians by Brandon Sanderson
+		---
+		Number of books: 1
+		Number of pages: 320
+		Number of hours: 1.6
+
+	James Dashner
+		The Maze Runner by James Dashner
+		---
+		Number of books: 1
+		Number of pages: 0
+		Number of hours: 0
+
+	Jennifer A. Nielsen
+		The False Prince by Jennifer A. Nielsen
+		---
+		Number of books: 1
+		Number of pages: 352
+		Number of hours: 0
+
+	Martine Leavitt
+		Keturah and Lord Death by Martine Leavitt
+		---
+		Number of books: 1
+		Number of pages: 0
+		Number of hours: 0
+
+	Obert Skye
+		Leven Thumps and the Gateway to Foo by Obert Skye
+		---
+		Number of books: 1
+		Number of pages: 0
+		Number of hours: 0
+
+
+Books, Organized By Genre
+	dystopian
+		The Maze Runner by James Dashner
+		---
+		Number of books: 1
+		Number of pages: 0
+		Number of hours: 0
+
+	fantasy
+		Alcatraz and the Evil Librarians by Brandon Sanderson
+		The False Prince by Jennifer A. Nielsen
+		Fablehaven by Brandon Mull
+		Leven Thumps and the Gateway to Foo by Obert Skye
+		---
+		Number of books: 4
+		Number of pages: 672
+		Number of hours: 1.6
+
+	fiction
+		Keturah and Lord Death by Martine Leavitt
+		---
+		Number of books: 1
+		Number of pages: 0
+		Number of hours: 0
+
+
