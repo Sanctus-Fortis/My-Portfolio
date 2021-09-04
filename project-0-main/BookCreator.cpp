@@ -56,7 +56,7 @@ Book* BookCreator::createBook() {
             }
             else if (check(info, Info::GENRE)) {
                 if (book->hasGenre()) {
-                    throw "Genre can not be set twice for the same book.";
+                    throw "Genre can not be set twice for the same book.";return book;
                 }
                 book->setGenre(info.getInfo());
             }
