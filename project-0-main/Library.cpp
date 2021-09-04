@@ -73,7 +73,8 @@ void Library::organizeBooksByGenre() {
         }
         else {
             std::vector<Book*> bookList = it->second;
-            bookList.push_back(book);
+            //bookList.push_back(book); <-- This was the bug. Man it was painful to find.
+            it->second.push_back(book);
         }
     }
 }
