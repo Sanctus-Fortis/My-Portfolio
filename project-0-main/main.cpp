@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
         cout << "File " << fileName << " could not be found or opened." << endl;
         return 1;
     }
-
+    //gg
     // get book list
     vector<Book*> bookList;
     try {
