@@ -1,14 +1,18 @@
 //
 // Created by Addison on 9/11/2021.
 //
-#include "Automaton.h"
+
 #ifndef CS236_PROJECT_1_COMMAAUTOMATON_H
 #define CS236_PROJECT_1_COMMAAUTOMATON_H
+#include "Automaton.h"
+#include <string>
 
 class CommaAutomaton : public Automaton
 {
+private:
+
 public:
-    CommaAutomaton() : Automaton(TokenType::COMMA) {}  // Call the base constructor
+   CommaAutomaton() : Automaton(TokenType::COMMA) {}  // Call the base constructor
 
     void S0(const std::string& input);
 };
