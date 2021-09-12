@@ -1,6 +1,7 @@
 #include "Lexer.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
+#include "CommaAutomaton.h"
 
 Lexer::Lexer() {
     CreateAutomata();
@@ -13,6 +14,7 @@ Lexer::~Lexer() {
 void Lexer::CreateAutomata() {
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
+    automata.push_back(new CommaAutomaton());
     // TODO: Add the other needed automata here
 }
 

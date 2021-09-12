@@ -14,6 +14,7 @@ CMakeFiles\CS236_PROJECT_1.dir\ColonDashAutomaton.cpp.obj: ..\Token.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Automaton.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\ColonAutomaton.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\ColonDashAutomaton.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\CommaAutomaton.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Lexer.cpp
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Lexer.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Token.h

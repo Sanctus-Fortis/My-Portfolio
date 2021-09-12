@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include "Token.h"
 using namespace std;
 
 int main(int argc, char** argv) {
@@ -14,7 +15,7 @@ int main(int argc, char** argv) {
     ifstream fileInput("input.txt");
     if (fileInput.is_open()) {
         while (fileInput) {
-            fileInput >> inputString;
+            inputString.push_back((fileInput.get()));
             if (fileInput) {
                 totalInput += inputString;
             }
@@ -23,7 +24,10 @@ int main(int argc, char** argv) {
     else {
         cout << "FAILED";
     }
-    cout << totalInput;
+    cout << totalInput << endl;
+
+    Token myTok(TokenType::COMMA,"COMMA", 5);
+    cout << myTok.toString();
 
     delete lexer;
 

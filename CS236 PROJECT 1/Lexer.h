@@ -9,6 +9,7 @@ class Lexer
 private:
     std::vector<Automaton*> automata;
     std::vector<Token*> tokens;
+    string fileContents;
 
     void CreateAutomata();
 
@@ -16,8 +17,10 @@ private:
 
 public:
     Lexer();
+    Lexer(string fileContents) {
+        this->fileContents = fileContents;
+    }
     ~Lexer();
-
     void Run(std::string& input);
     
     // TODO: add other public methods here
