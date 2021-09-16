@@ -11,7 +11,7 @@ private:
 public:
     ColonDashAutomaton() : Automaton(TokenType::COLON_DASH) {}  // Call the base constructor
 
-    void S0(const std::string& input);
+    void S0(const std::string& input) override;
 };
 
 #endif // COLONDASHAUTOMATON_H

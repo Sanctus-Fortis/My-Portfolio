@@ -75,6 +75,6 @@ string Token::toString() {
             output += "UNDEFINED";
             break;
     }
-    output += ",\"" + value + "\"," + to_string(lineNum) + ")";
+    output += ",\"" + value + "\"," + to_string(lineNum) + ")\n";
     return output;
 }

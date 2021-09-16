@@ -10,6 +10,9 @@ private:
     std::vector<Automaton*> automata;
     std::vector<Token*> tokens;
     string fileContents;
+    int lineNum = 0;
+    //int inputRead = 0;
+
 
     void CreateAutomata();
 
@@ -22,6 +25,8 @@ public:
     }
     ~Lexer();
     void Run(std::string& input);
+
+    string toString();
     
     // TODO: add other public methods here
 

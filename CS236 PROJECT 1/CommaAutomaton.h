@@ -12,9 +12,17 @@ class CommaAutomaton : public Automaton
 private:
 
 public:
-   CommaAutomaton() : Automaton(TokenType::COMMA) {}  // Call the base constructor
+    CommaAutomaton() : Automaton(TokenType::COMMA) {}
+    void S0(const std::string& input) override {
+        if (input[index] == ',') {
+            inputRead = 1;
+        }
+        else {
+            Serr();
+        }
+    };
 
-    void S0(const std::string& input);
+   //void S0(const std::string& input);
 };
 
 #endif //CS236_PROJECT_1_COMMAAUTOMATON_H

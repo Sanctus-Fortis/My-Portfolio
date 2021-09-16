@@ -96,6 +96,9 @@
 		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/.idea/workspace.xml">
 			<Option target="CS236_PROJECT_1"/>
 		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/AddAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
 		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h">
 			<Option target="CS236_PROJECT_1"/>
 		</Unit>
@@ -111,10 +114,55 @@
 		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonDashAutomaton.h">
 			<Option target="CS236_PROJECT_1"/>
 		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/CommaAutomaton.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/CommentAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/EternalCommentAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/EternalStringAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/FactsAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/IdAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/LeftParenAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
 		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Lexer.cpp">
 			<Option target="CS236_PROJECT_1"/>
 		</Unit>
 		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Lexer.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/MultiplyAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/PeriodAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/QueriesAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/QuestionAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/RightParenAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/RulesAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/SchemesAutomata.h">
+			<Option target="CS236_PROJECT_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/StringAutomata.h">
 			<Option target="CS236_PROJECT_1"/>
 		</Unit>
 		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Token.cpp">

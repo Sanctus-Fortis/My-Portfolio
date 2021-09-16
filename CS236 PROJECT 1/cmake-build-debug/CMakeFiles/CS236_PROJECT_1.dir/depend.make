@@ -11,12 +11,27 @@ CMakeFiles\CS236_PROJECT_1.dir\ColonDashAutomaton.cpp.obj: ..\ColonDashAutomaton
 CMakeFiles\CS236_PROJECT_1.dir\ColonDashAutomaton.cpp.obj: ..\ColonDashAutomaton.h
 CMakeFiles\CS236_PROJECT_1.dir\ColonDashAutomaton.cpp.obj: ..\Token.h
 
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\AddAutomata.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Automaton.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\ColonAutomaton.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\ColonDashAutomaton.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\CommaAutomaton.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\CommentAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\EternalCommentAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\EternalStringAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\FactsAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\IdAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\LeftParenAutomata.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Lexer.cpp
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Lexer.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\MultiplyAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\PeriodAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\QueriesAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\QuestionAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\RightParenAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\RulesAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\SchemesAutomata.h
+CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\StringAutomata.h
 CMakeFiles\CS236_PROJECT_1.dir\Lexer.cpp.obj: ..\Token.h
 
 CMakeFiles\CS236_PROJECT_1.dir\Token.cpp.obj: ..\Token.cpp

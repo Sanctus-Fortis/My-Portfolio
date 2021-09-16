@@ -15,6 +15,22 @@ add_executable(CS236_PROJECT_1
         ColonAutomaton.h
         ColonDashAutomaton.cpp
         ColonDashAutomaton.h
+        CommaAutomaton.h
+        AddAutomata.h
+        CommentAutomata.h
+        EternalCommentAutomata.h
+        EternalStringAutomata.h
+        FactsAutomata.h
+        IdAutomata.h
+        LeftParenAutomata.h
+        RightParenAutomata.h
+        MultiplyAutomata.h
+        PeriodAutomata.h
+        QueriesAutomata.h
+        QuestionAutomata.h
+        RulesAutomata.h
+        SchemesAutomata.h
+        StringAutomata.h
         input.txt
         Lexer.cpp
         Lexer.h

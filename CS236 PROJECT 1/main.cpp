@@ -12,22 +12,21 @@ int main(int argc, char** argv) {
     // TODO
     string inputString;
     string totalInput;
-    ifstream fileInput("input.txt");
+    ifstream fileInput(argv[1]);
     if (fileInput.is_open()) {
         while (fileInput) {
-            inputString.push_back((fileInput.get()));
-            if (fileInput) {
-                totalInput += inputString;
-            }
+            totalInput.push_back((fileInput.get()));
         }
+        /*for (unsigned int i = totalInput.size() - 1; i < totalInput.size(); i--) {
+            if (isspace(totalInput.at(i))) {
+                totalInput.erase(totalInput.begin()+i);
+            }
+        }*/
     }
     else {
         cout << "FAILED";
     }
-    cout << totalInput << endl;
-
-    Token myTok(TokenType::COMMA,"COMMA", 5);
-    cout << myTok.toString();
+    lexer->Run(totalInput);
 
     delete lexer;
 

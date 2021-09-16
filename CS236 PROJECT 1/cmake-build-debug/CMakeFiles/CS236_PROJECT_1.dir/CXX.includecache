@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/AddAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
 Token.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Token.h
@@ -24,7 +28,35 @@ C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
 string
 -
 
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/CommentAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/EternalCommentAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/EternalStringAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/FactsAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/IdAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/LeftParenAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Lexer.cpp
+sstream
+-
+iostream
+-
 Lexer.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Lexer.h
 ColonAutomaton.h
@@ -33,6 +65,36 @@ ColonDashAutomaton.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonDashAutomaton.h
 CommaAutomaton.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/CommaAutomaton.h
+MultiplyAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/MultiplyAutomata.h
+IdAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/IdAutomata.h
+AddAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/AddAutomata.h
+CommentAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/CommentAutomata.h
+EternalCommentAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/EternalCommentAutomata.h
+EternalStringAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/EternalStringAutomata.h
+FactsAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/FactsAutomata.h
+LeftParenAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/LeftParenAutomata.h
+RightParenAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/RightParenAutomata.h
+PeriodAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/PeriodAutomata.h
+QueriesAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/QueriesAutomata.h
+QuestionAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/QuestionAutomata.h
+RulesAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/RulesAutomata.h
+SchemesAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/SchemesAutomata.h
+StringAutomata.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/StringAutomata.h
 
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Lexer.h
 vector
@@ -41,6 +103,38 @@ Automaton.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
 Token.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Token.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/MultiplyAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/PeriodAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/QueriesAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/QuestionAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/RightParenAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/RulesAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/SchemesAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/StringAutomata.h
+Automaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
 
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Token.h
 string

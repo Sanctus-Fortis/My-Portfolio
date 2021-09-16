@@ -22,15 +22,12 @@ enum class TokenType {
     STRING,
     COMMENT,
     END_OF_FILE,
-    // TODO: add the other types of tokens
     UNDEFINED
 };
 
 class Token
 {
 private:
-    // TODO: add member variables for information needed by Token
-
     string value;
     int lineNum;   //line number the token starts on.
     TokenType type;
