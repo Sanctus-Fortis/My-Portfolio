@@ -19,6 +19,7 @@ private:
     // TODO: add any other private methods here (if needed)
 
 public:
+    void DeleteAutomata();
     Lexer();
     Lexer(string fileContents) {
         this->fileContents = fileContents;

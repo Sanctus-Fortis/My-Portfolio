@@ -14,9 +14,17 @@ C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
 Token.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Token.h
 
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonAutomaton.cpp
+ColonAutomaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonAutomaton.h
+
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonAutomaton.h
 Automaton.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonDashAutomaton.cpp
+ColonDashAutomaton.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonDashAutomaton.h
 
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/ColonDashAutomaton.h
 Automaton.h
@@ -139,4 +147,16 @@ C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Automaton.h
 C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Token.h
 string
 -
+
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/main.cpp
+Lexer.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Lexer.h
+fstream
+-
+iostream
+-
+string
+-
+Token.h
+C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT 1/Token.h
 

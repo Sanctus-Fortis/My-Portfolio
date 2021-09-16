@@ -11,52 +11,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a2f712-0503-474c-bba8-8a4ac763910c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/AddAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommentAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EternalCommentAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EternalStringAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FactsAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeftParenAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultiplyAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PeriodAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueriesAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestionAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RightParenAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RulesAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchemesAutomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringAutomata.h" afterDir="false" />
+    <list default="true" id="06a2f712-0503-474c-bba8-8a4ac763910c" name="Changes" comment="Final push for project 1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/Automaton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ColonAutomaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ColonAutomaton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ColonAutomaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/ColonAutomaton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ColonDashAutomaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/ColonDashAutomaton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommaAutomaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/CommaAutomaton.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lexer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Token.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Token.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/Token.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonAutomaton.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonAutomaton.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonDashAutomaton.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonDashAutomaton.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Lexer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Lexer.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Token.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Token.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/embed.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/embed.manifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/manifest.res" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/manifest.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +103,7 @@
       <workItem from="1631542596318" duration="3006000" />
       <workItem from="1631631086022" duration="7494000" />
       <workItem from="1631737875348" duration="5358000" />
-      <workItem from="1631803064011" duration="4934000" />
+      <workItem from="1631803064011" duration="5903000" />
     </task>
     <task id="LOCAL-00001" summary="10:05 project 1 first commit 9/11/21">
       <created>1631376340924</created>
@@ -159,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631470858864</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final push for project 1.">
+      <created>1631808051205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631808051205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10:05 project 1 first commit 9/11/21" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Final push for project 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final push for project 1." />
   </component>
 </project>

@@ -6,7 +6,7 @@ class Automaton
 {
 protected:
     int newLines = 0;
-    int index = 0;
+    long unsigned int index = 0;
     TokenType type;
     int inputRead;
 
@@ -14,7 +14,9 @@ public:
     // Default constructor -- since we have a constructor that takes a parameter,
     //   the compiler will autogenerate a default constructor if not explicit.
     Automaton() : Automaton(TokenType::UNDEFINED) {}
-
+    virtual ~Automaton() {
+        delete this;
+    };
     Automaton(TokenType type) { this->type = type; }
 
     int getInputRead() {

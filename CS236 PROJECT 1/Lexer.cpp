@@ -25,10 +25,10 @@ Lexer::Lexer() {
 }
 
 Lexer::~Lexer() {
-    for (int i = 0; i < tokens.size(); ++i) {
+    for (long unsigned int i = 0; i < tokens.size(); ++i) {
         delete tokens.at(i);
     }
-    for (int i = 0; i < automata.size(); ++i) {
+    for (long unsigned int i = 0; i < automata.size(); ++i) {
         delete automata.at(i);
     }
 }
@@ -53,10 +53,13 @@ void Lexer::CreateAutomata() {
     automata.push_back(new ColonDashAutomaton());
     automata.push_back(new CommaAutomaton());
 }
+void Lexer::DeleteAutomata() {
+
+}
 
 string Lexer::toString() {
         string output;
-        for(int i = 0; i < tokens.size(); ++i) {
+        for(long unsigned int i = 0; i < tokens.size(); ++i) {
             output += tokens.at(i)->toString();
         }
         return output;
@@ -70,7 +73,7 @@ void Lexer::Run(std::string& input) {
     while(input.size() > 1) {
         maxRead = 0;
         maxMachine = automata.at(0);
-        for (int i = 0; i < automata.size(); ++i) {
+        for (long unsigned int i = 0; i < automata.size(); ++i) {
             automata.at(i)->S0(input);
             if (automata.at(i)->getInputRead() > maxRead) {
                 maxRead = automata.at(i)->getInputRead();
@@ -112,7 +115,7 @@ void Lexer::Run(std::string& input) {
             }
         }
         input.erase(0, maxRead);
-        for (int i = 0; i < automata.size(); ++i) {
+        for (long unsigned int i = 0; i < automata.size(); ++i) {
             automata.at(i)->setIndex(0);
         }
         maxNewLines += maxMachine->getNewLines();
@@ -129,7 +132,7 @@ void Lexer::Run(std::string& input) {
     out << "Total Tokens = " << toTokens + 1 << '\n';
     tokens.push_back(new Token(TokenType::END_OF_FILE, "", maxNewLines));
     output += out.str();
-    for (int i = 0; i < tokens.size(); ++i) {
+    for (long unsigned int i = 0; i < tokens.size(); ++i) {
         cout << tokens.at(i)->toString();
     }
     cout << "Total Tokens = " << tokens.size();
