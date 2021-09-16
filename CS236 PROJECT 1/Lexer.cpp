@@ -29,7 +29,7 @@ Lexer::~Lexer() {
         delete tokens.at(i);
     }
     for (long unsigned int i = 0; i < automata.size(); ++i) {
-        delete automata.at(i);
+        //delete automata.at(i);
     }
 }
 
