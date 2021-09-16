@@ -6,6 +6,7 @@
 #define CS236_PROJECT_1_IDAUTOMATA_H
 #include "Automaton.h"
 
+
 class IdAutomata : public Automaton {
 public:
     IdAutomata() : Automaton(TokenType::ID) {}

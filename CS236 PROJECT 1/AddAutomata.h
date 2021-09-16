@@ -10,8 +10,8 @@ class AddAutomata : public Automaton {
 public:
     AddAutomata() : Automaton(TokenType::ADD) {}
     void S0(const std::string& input) override {
-        if (inputRead == '+') {
-            ++inputRead = 1;
+        if (input[index] == '+') {
+            inputRead = 1;
         }
         else {
             Serr();

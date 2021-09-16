@@ -26,6 +26,9 @@ public:
     void setIndex(int i) {
         index = i;
     }
+    void setNewLines(int i) {
+        newLines = i;
+    }
 
     // Start the automaton and return the number of characters read
     //   read == 0 indicates the input was rejected

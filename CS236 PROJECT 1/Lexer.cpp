@@ -38,9 +38,9 @@ void Lexer::CreateAutomata() {
     automata.push_back(new QueriesAutomata());
     automata.push_back(new RulesAutomata());
     automata.push_back(new SchemesAutomata());
+    automata.push_back(new CommentAutomata());
     automata.push_back(new StringAutomata());
     automata.push_back(new IdAutomata());
-    automata.push_back(new CommentAutomata());
     automata.push_back(new EternalCommentAutomata());
     automata.push_back(new EternalStringAutomata());
     automata.push_back(new PeriodAutomata());
@@ -119,6 +119,9 @@ void Lexer::Run(std::string& input) {
             automata.at(i)->setIndex(0);
         }
         maxNewLines += maxMachine->getNewLines();
+        for (long unsigned int i = 0; i < automata.size(); ++i) {
+            automata.at(i)->setNewLines(0);
+        }
     }
     string output = "";
     int toTokens = 0;
@@ -136,38 +139,5 @@ void Lexer::Run(std::string& input) {
         cout << tokens.at(i)->toString();
     }
     cout << "Total Tokens = " << tokens.size();
-    /*
-    set lineNumber to 1
-    // While there are more characters to tokenize
-    loop while input.size() > 0 {
-        set maxRead to 0
-        set maxAutomaton to the first automaton in automata
-        // Here is the "Parallel" part of the algorithm
-        //   Each automaton runs with the same input
-        foreach automaton in automata {
-            inputRead = automaton.Start(input)
-            if (inputRead > maxRead) {
-                set maxRead to inputRead
-                set maxAutomaton to automaton
-            }
-        }
-        // Here is the "Max" part of the algorithm
-        if maxRead > 0 {
-            set newToken to maxAutomaton.CreateToken(...)
-                increment lineNumber by maxAutomaton.NewLinesRead()
-                add newToken to collection of all tokens
-        }
-        // No automaton accepted input
-        // Create single character undefined token
-        else {
-            set maxRead to 1
-                set newToken to a  new undefined Token
-                (with first character of input)
-                add newToken to collection of all tokens
-        }
-        // Update `input` by removing characters read to create Token
-        remove maxRead characters from input
-    }
-    add end of file token to all tokens
-    */
+    cout << '\n';
 }

@@ -30,7 +30,16 @@ private:
             S1(input);
         }
         else if  (input[index] == '\'') {
-            Serr();
+            ++inputRead;
+            ++index;
+            if (input[index] == '\'') {
+                ++inputRead;
+                ++index;
+                S1(input);
+            }
+            else {
+                Serr();
+            }
         }
     }
 

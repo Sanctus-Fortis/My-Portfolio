@@ -13,19 +13,21 @@ public:
         if (input[index] == '#') {
             inputRead = 1;
             ++index;
-            S1(input);
+            if (input[index] == '|') {
+                ++inputRead;
+                ++index;
+                S2(input);
+            }
+            else {
+                Serr();
+            }
         }
         else {
             Serr();
         }
     };
     void S1(const std::string& input) {
-        if (input[index] == '|') {
-            ++inputRead;
-            ++index;
-            S2(input);
-        }
-        else if(index == input.size() - 1) {
+        if (index == input.size() - 1) {
             Serr();
         }
         else if (input[index] != ('\n')) {

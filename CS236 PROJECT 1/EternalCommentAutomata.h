@@ -28,7 +28,10 @@ private:
         }
     }
     void S2(const std::string& input) {
-        if (index != input.size() - 1) {
+        if (input[index] == '|' && input[index+1] == '#') {
+            Serr();
+        }
+        else if (index != input.size() - 1) {
             ++inputRead;
             ++index;
             if (input[index] == '\n') {
