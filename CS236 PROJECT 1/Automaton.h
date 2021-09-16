@@ -14,9 +14,7 @@ public:
     // Default constructor -- since we have a constructor that takes a parameter,
     //   the compiler will autogenerate a default constructor if not explicit.
     Automaton() : Automaton(TokenType::UNDEFINED) {}
-    virtual ~Automaton() {
-        delete this;
-    };
+
     Automaton(TokenType type) { this->type = type; }
 
     int getInputRead() {
@@ -32,13 +30,7 @@ public:
     // Start the automaton and return the number of characters read
     //   read == 0 indicates the input was rejected
     //   read  > 0 indicates the input was accepted
-    int Start(const std::string& input) {
-        newLines = 0;
-        inputRead = 0;
-        index = 0;
-        S0(input);
-        return inputRead;
-    }
+
     int getNewLines() {
         return newLines;
     }
@@ -54,7 +46,6 @@ public:
     virtual Token* CreateToken(std::string input, int lineNumber) { return new Token(type, input, lineNumber); }
     virtual Token* CreateUndefined(std::string input, int lineNumber) { return new Token(TokenType::UNDEFINED, input, lineNumber); }
 
-    int NewLinesRead() const { return newLines; }
 };
 
 #endif // AUTOMATON_H
