@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -IC:\Users\Addison\Desktop\MY-POR~1\CS236P~1\.
 
-CXX_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+CXX_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
 

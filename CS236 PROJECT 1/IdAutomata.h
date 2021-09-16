@@ -11,10 +11,15 @@ class IdAutomata : public Automaton {
 public:
     IdAutomata() : Automaton(TokenType::ID) {}
     void S0(const std::string& input) override {
-        if (isalpha(input[index])) {
-            ++index;
-            inputRead = 1;
-            S1(input);
+        if (static_cast<int>(input[index] > 0)) {
+            if (isalpha(input[index])) {
+                ++index;
+                inputRead = 1;
+                S1(input);
+            }
+            else {
+                Serr();
+            }
         }
         else {
             Serr();

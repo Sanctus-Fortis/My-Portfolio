@@ -31,12 +31,12 @@ private:
         if (input[index] == '|' && input[index+1] == '#') {
             Serr();
         }
-        else if (index != input.size() - 1) {
-            ++inputRead;
-            ++index;
+        else if (index != input.size()) {
             if (input[index] == '\n') {
                 ++newLines;
             }
+            ++inputRead;
+            ++index;
             S2(input);
         }
     }

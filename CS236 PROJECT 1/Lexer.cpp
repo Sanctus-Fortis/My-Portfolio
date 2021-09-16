@@ -139,5 +139,4 @@ void Lexer::Run(std::string& input) {
         cout << tokens.at(i)->toString();
     }
     cout << "Total Tokens = " << tokens.size();
-    cout << '\n';
 }

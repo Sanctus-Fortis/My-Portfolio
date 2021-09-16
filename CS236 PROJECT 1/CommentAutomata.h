@@ -18,6 +18,9 @@ public:
                 ++index;
                 S2(input);
             }
+            else if (input[index] != '|') {
+                S1(input);
+            }
             else {
                 Serr();
             }

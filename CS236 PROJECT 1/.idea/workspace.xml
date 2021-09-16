@@ -13,21 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="06a2f712-0503-474c-bba8-8a4ac763910c" name="Changes" comment="Final push for project 1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddAutomata.h" beforeDir="false" afterPath="$PROJECT_DIR$/AddAutomata.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/Automaton.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommentAutomata.h" beforeDir="false" afterPath="$PROJECT_DIR$/CommentAutomata.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EternalCommentAutomata.h" beforeDir="false" afterPath="$PROJECT_DIR$/EternalCommentAutomata.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EternalStringAutomata.h" beforeDir="false" afterPath="$PROJECT_DIR$/EternalStringAutomata.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IdAutomata.h" beforeDir="false" afterPath="$PROJECT_DIR$/IdAutomata.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonAutomaton.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonAutomaton.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonDashAutomaton.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/ColonDashAutomaton.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Lexer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Lexer.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Token.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/Token.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS236_PROJECT_1.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS236_PROJECT_1.pdb" afterDir="false" />
@@ -79,11 +70,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.CS236_PROJECT_1">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CS236_PROJECT_1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="input.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS236_PROJECT_1" TARGET_NAME="CS236_PROJECT_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS236_PROJECT_1" RUN_TARGET_NAME="CS236_PROJECT_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -97,6 +83,11 @@
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -117,7 +108,8 @@
       <workItem from="1631542596318" duration="3006000" />
       <workItem from="1631631086022" duration="7494000" />
       <workItem from="1631737875348" duration="5358000" />
-      <workItem from="1631803064011" duration="12035000" />
+      <workItem from="1631803064011" duration="12087000" />
+      <workItem from="1631815260047" duration="3502000" />
     </task>
     <task id="LOCAL-00001" summary="10:05 project 1 first commit 9/11/21">
       <created>1631376340924</created>
@@ -168,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631809437791</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final push for project 1.">
+      <created>1631815236455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631815236455</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,5 +190,16 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Final push for project 1." />
     <option name="LAST_COMMIT_MESSAGE" value="Final push for project 1." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
+          <line>73</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
