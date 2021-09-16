@@ -28,10 +28,10 @@ private:
         }
     }
     void S2(const std::string& input) {
-        if (input[index] == '|' && input[index+1] == '#') {
+        if (input[index - 1] == '|' && input[index] == '#') {
             Serr();
         }
-        else if (index != input.size()) {
+        else if (index != input.size() - 1) {
             if (input[index] == '\n') {
                 ++newLines;
             }
