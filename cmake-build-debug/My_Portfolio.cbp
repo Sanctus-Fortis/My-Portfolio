@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="My_Portfolio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Addison/Desktop/My-Portfolio/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="My_Portfolio">
+				<Option output="C:/Users/Addison/Desktop/My-Portfolio/cmake-build-debug/My_Portfolio.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Addison/Desktop/My-Portfolio/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 My_Portfolio"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="My_Portfolio/fast">
+				<Option output="C:/Users/Addison/Desktop/My-Portfolio/cmake-build-debug/My_Portfolio.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Addison/Desktop/My-Portfolio/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 My_Portfolio/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Addison/Desktop/My-Portfolio/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Addison/Desktop/My-Portfolio/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Addison\Desktop\My-Portfolio\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/.idea/.gitignore">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/.idea/My-Portfolio.iml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/.idea/modules.xml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/.idea/vcs.xml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/.idea/workspace.xml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/.idea/.name">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/.idea/CS236 PROJECT 1.iml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/.idea/misc.xml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/.idea/modules.xml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/.idea/vcs.xml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/.idea/workspace.xml">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/AddAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Automaton.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/CMakeLists.txt">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/ColonAutomaton.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/ColonAutomaton.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/ColonDashAutomaton.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/ColonDashAutomaton.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/CommaAutomaton.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/CommentAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/EternalCommentAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/EternalStringAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Expression.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Expression.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/FactsAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/IdAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/LeftParenAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Lexer.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Lexer.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/MultiplyAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Parameter.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Parameter.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Parser.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Parser.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/PeriodAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/PlainParameter.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/PlainParameter.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Predicate.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Predicate.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/QueriesAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/QuestionAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/RightParenAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Rule.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Rule.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/RulesAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/SchemesAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/StringAutomata.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Token.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/Token.h">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/CMakeCache.txt">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/CS236_PROJECT_1.cbp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/CS236_PROJECT_1.exe">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/CS236_PROJECT_1.ilk">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/CS236_PROJECT_1.pdb">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/Makefile">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/Testing/Temporary/LastTest.log">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/cmake-build-debug/cmake_install.cmake">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/input.txt">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CS236 PROJECT/main.cpp">
+			<Option target="My_Portfolio"/>
+		</Unit>
+		<Unit filename="C:/Users/Addison/Desktop/My-Portfolio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
