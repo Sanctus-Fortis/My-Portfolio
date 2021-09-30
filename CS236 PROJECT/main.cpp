@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     }
     catch (Token* baseball) {
         cout << "Failure!" << endl;
-        cout << "  (" << baseball->typeString() << "," << "\"" << baseball->toString() << "\"" << "," << baseball->getLine() << ")" << endl;
+        cout << "  " << baseball->toString() <<endl;
     }
 
     delete lexer;
