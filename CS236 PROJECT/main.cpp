@@ -5,6 +5,7 @@
 #include <sstream>
 #include "Token.h"
 #include "Parser.h"
+#include "Interpreter.h"
 using namespace std;
 
 int main(int argc, char** argv) {
@@ -27,13 +28,17 @@ int main(int argc, char** argv) {
     mainParser.clearComment();
     try {
         mainParser.parse();
-        cout << "Success!" << endl;
-        mainParser.toString();
+        //cout << "Success!" << endl;
+        //mainParser.toString();
     }
     catch (Token* baseball) {
         cout << "Failure!" << endl;
         cout << "  " << baseball->toString() <<endl;
     }
+
+    Interpreter myData(mainParser.getDatalog());
+    myData.buildDatabase();
+    myData.interpret();
 
     delete lexer;
 
